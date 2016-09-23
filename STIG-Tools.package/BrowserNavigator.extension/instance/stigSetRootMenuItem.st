@@ -7,5 +7,5 @@ stigSetRootMenuItem
 
 	^(MenuItem labeled: 'Set Root')
 		value: [
-			(Dialog request: 'Root directory for this project?' initialAnswer: STIG.DefaultRoot)
+			(  Dialog request: 'Root directory for this project?' initialAnswer: (self packages first propertyAt: #STIGRoot) onCancel: [])
 				ifNotNil: [ :root | self packages do: [ :package | package propertyAt: #STIGRoot put: root ] ] ]
