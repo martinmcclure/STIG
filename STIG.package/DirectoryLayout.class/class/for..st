@@ -1,12 +1,13 @@
-"
-notice: Copyright 2012 Travis Griggs, Martin Kobetic
-category: instance creation
-"
+{
+'notice' : ''
+'category' : 'instance creation'
+}
 for: package
 
 	| layout |
 	layout := DefaultLayout.
-	(package stigRoot asFilename / 'properties.ston') exists ifTrue: [ layout := CypressLayout ].
-	^layout new
+	(package stigRoot asFilename / 'properties.ston') exists
+		ifTrue: [layout := ExperimentalCypressLayout].
+	^(layout new)
 		package: package;
 		yourself

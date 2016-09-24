@@ -1,4 +1,4 @@
 {	"category" : "constants",
-	"initializer" : "STIG.CypressLayout",
+	"initializer" : "STIG.ExperimentalCypressLayout",
 	"name" : "DefaultLayout",
 	"namespace" : "STIG" }
