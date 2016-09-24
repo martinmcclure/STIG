@@ -1,7 +1,7 @@
-"
-notice: Copyright 2012 Travis Griggs, Martin Kobetic
-category: initialize-release
-"
+{
+'notice' : ''
+'category' : 'initialize-release'
+}
 format: properties
 
 	(properties at: 'commentFile' ifAbsent: nil) ifNotNil: [ :v | commentFile := v ].

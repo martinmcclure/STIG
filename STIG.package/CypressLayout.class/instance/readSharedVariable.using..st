@@ -1,7 +1,7 @@
-"
-notice: Copyright 2012 Travis Griggs, Martin Kobetic
-category: loading
-"
+{
+'notice' : ''
+'category' : 'loading'
+}
 readSharedVariable: aFilename using: fromDisk
 
 	| blueprint properties reference |

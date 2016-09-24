@@ -1,7 +1,7 @@
-"
-notice: Copyright 2012 Travis Griggs, Martin Kobetic
-category: private
-"
+{
+'notice' : ''
+'category' : 'private'
+}
 translateMultiByteUTF8: aByteArray
 
 	| output index size firstByte |

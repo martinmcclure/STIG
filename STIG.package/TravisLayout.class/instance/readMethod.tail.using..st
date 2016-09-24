@@ -1,7 +1,7 @@
-"
-notice: Copyright 2012 Travis Griggs, Martin Kobetic
-category: loading
-"
+{
+'notice' : ''
+'category' : 'loading'
+}
 readMethod: aFilename tail: aTail using: fromDisk
 
 	| blueprint rs |

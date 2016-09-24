@@ -1,7 +1,7 @@
-"
-notice: Copyright 2012 Travis Griggs, Martin Kobetic
-category: STIG
-"
+{
+'notice' : ''
+'category' : 'STIG'
+}
 stigReconcileDisk: diskBlueprints toImage: imageBlueprints
 
 	| diffs diskStack imageStack toRemove toUpdate againDisk againImage |

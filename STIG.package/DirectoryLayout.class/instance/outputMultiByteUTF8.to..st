@@ -1,7 +1,7 @@
-"
-notice: Copyright 2012 Travis Griggs, Martin Kobetic
-category: private-writing
-"
+{
+'notice' : ''
+'category' : 'private-writing'
+}
 outputMultiByteUTF8: string to: fd
 
 	| buffer bufferIndex written |

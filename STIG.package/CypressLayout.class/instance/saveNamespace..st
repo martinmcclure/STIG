@@ -1,7 +1,7 @@
-"
-notice: Copyright 2012 Travis Griggs, Martin Kobetic
-category: saving
-"
+{
+'notice' : ''
+'category' : 'saving'
+}
 saveNamespace: aNamespaceBlueprint
 
 	| path properties name ns |

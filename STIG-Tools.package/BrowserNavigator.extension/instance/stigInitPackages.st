@@ -1,7 +1,7 @@
-"
-notice: Copyright 2012 Travis Griggs, Martin Kobetic
-category: STIG
-"
+{
+'notice' : ''
+'category' : 'STIG'
+}
 stigInitPackages
 
 	self packages do: 

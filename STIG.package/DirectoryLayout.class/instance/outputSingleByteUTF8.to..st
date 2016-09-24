@@ -1,7 +1,7 @@
-"
-notice: Copyright 2012 Travis Griggs, Martin Kobetic
-category: private-writing
-"
+{
+'notice' : ''
+'category' : 'private-writing'
+}
 outputSingleByteUTF8: string to: fd
 
 	| bytes toWrite written |

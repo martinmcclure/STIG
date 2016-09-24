@@ -1,7 +1,7 @@
-"
-notice: Copyright 2012 Travis Griggs, Martin Kobetic
-category: instance creation
-"
+{
+'notice' : ''
+'category' : 'instance creation'
+}
 from: aFromProvider to: aToProvider
 
 	^(self new)

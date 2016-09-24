@@ -1,7 +1,7 @@
-"
-notice: Copyright 2012 Travis Griggs, Martin Kobetic
-category: private
-"
+{
+'notice' : ''
+'category' : 'private'
+}
 encodeSelector: aSymbol
 
 	^aSymbol last = $:

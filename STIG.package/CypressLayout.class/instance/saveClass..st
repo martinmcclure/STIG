@@ -1,7 +1,7 @@
-"
-notice: Copyright 2012 Travis Griggs, Martin Kobetic
-category: saving
-"
+{
+'notice' : ''
+'category' : 'saving'
+}
 saveClass: blueprint
 
 	| path name properties ns class |

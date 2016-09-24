@@ -1,7 +1,7 @@
-"
-notice: Copyright 2012 Travis Griggs, Martin Kobetic
-category: private-parsing
-"
+{
+'notice' : ''
+'category' : 'private-parsing'
+}
 parseTrue
 
 	(self read: 4) = 'true' ifTrue: [^true].

@@ -1,7 +1,7 @@
-"
-notice: 
-category: saving
-"
+{
+'notice' : ''
+'category' : 'saving'
+}
 saveMethod: blueprint
 
 	| path tail reference classDirectory properties |

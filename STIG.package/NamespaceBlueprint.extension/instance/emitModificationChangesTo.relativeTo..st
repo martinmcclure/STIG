@@ -1,7 +1,7 @@
-"
-notice: 
-category: converting
-"
+{
+'notice' : ''
+'category' : 'converting'
+}
 emitModificationChangesTo: aCompositeChange relativeTo: anOriginalBlueprint
 
 	(anOriginalBlueprint hasSameDefinition: self)
