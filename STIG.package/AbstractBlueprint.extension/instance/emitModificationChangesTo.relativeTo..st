@@ -1,8 +1,8 @@
 "
-notice: Copyright 2012 Travis Griggs, Martin Kobetic
+notice: 
 category: converting
 "
-emitModificationFrom: aBlueprint changesTo: aCompositeChange
+emitModificationChangesTo: aCompositeChange relativeTo: originalBlueprint
 	"Some subclasses get more specific than this."
 
 	^self emitAdditionChangesTo: aCompositeChange

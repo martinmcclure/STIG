@@ -1,8 +1,8 @@
 "
-notice: Copyright 2012 Travis Griggs, Martin Kobetic
+notice: 
 category: converting
 "
-emitModificationFrom: anOriginalBlueprint changesTo: aCompositeChange
+emitModificationChangesTo: aCompositeChange relativeTo: anOriginalBlueprint
 
 	(anOriginalBlueprint hasSameDefinition: self)
 		ifFalse: 
